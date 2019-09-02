@@ -27,11 +27,11 @@ This project is Licensed under [GNU License](LICENSE)
 
 # Contributors
 
-* Mick Ganza
-* Tyra Hans
-* Rhoda
-* Ann Wambui
-* Ruth Winfred
+* [Mick Ganza](https://github.com/Anngichuki)
+* [Tyra Hans](https://github.com/Tyra-hans)
+* [Rhoda](https://github.com/RkNyra)
+* [Ann Wambui](https://github.com/Anngichuki)
+* [Ruth Winfred](https://github.com/Ruthwinfred)
 
 # Contact information
 
