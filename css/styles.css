@@ -1,0 +1,50 @@
+.text-wrapper {
+    height: 100vh;
+    background-image: url(../images/pamojaAppbackhround\ image.jpg);
+    background-size: cover;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10%;
+    padding-bottom: 10%;
+    filter: blur(87%);
+}
+
+.heading {
+    color: white !important;
+    /* filter: blur(0px) !important; */
+}
+
+.slogan {
+    margin-bottom: 50px;
+}
+
+.registerbutton {
+    background-color: #35363E;
+    border-radius: 20px;
+    border-width: 2px;
+    border-color: white;
+    width: 130px;
+}
+
+.bg-popUp {
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: none;
+}
+
+.popUp {
+    width: 500px;
+    height: 300px;
+    background-color: white;
+    text-align: center;
+    position: relative;
+    padding: 20px;
+    border-radius: 5px;
+}
