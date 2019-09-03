@@ -1,4 +1,20 @@
 .text-wrapper {
+    background-image: url(../images/pamojaAppbackhround\ image.jpg);
+    background-size: cover;
     text-align: center;
     justify-content: center;
+    padding-top: 10%;
+    padding-bottom: 10%;
+    filter: blur(87%);
 }
+
+.heading {
+    color: white !important;
+    /* filter: blur(0px) !important; */
+}
+
+.slogan {
+    margin-bottom: 50px;
+}
+
+.registerbutton {}
