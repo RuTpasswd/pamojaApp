@@ -24,23 +24,25 @@
     <div class="bg-popUp">
         <div class="popUp">
             <form class="form-container">
-                <input class="form-control" type="text" placeholder="Your Name"><br>
+                <input class="form-control" type="text" placeholder="Your Name" required> <br>
 
                 <label for="female">Female</label>
                 <input type="radio" name="gender" value="female" id="female" required>
                 <label for="male">Male</label>
                 <input type="radio" name="gender" value="male" id="male" required><br>
 
-
-                <select class="form-control">
-                  <option value="Select Level">Select Level</option>
+                <select class="form-control" required>
+                  <option value="">Select Level</option>
                   <option value="Developer">Developer</option>
                   <option value="Mentor">Mentor</option>
-                </select>
+                </select><br>
+                <button class="btn btn-primary submitBtn" type="submit">Submit</button>
             </form>
-            <p class="btn btn-primary submitBtn">Submit</p>
+
         </div>
+
     </div>
+
 
 </body>
 
