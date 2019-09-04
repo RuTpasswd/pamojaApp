@@ -7,12 +7,13 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
     <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Karla&display=swap" rel="stylesheet">
     <script src="js/jquery-3.4.1.js"></script>
     <script src="js/script.js"></script>
 
-    <title>pamoja-app</title>
-    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
-    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <link rel="icon" type="imange/ico" href="images/faviconOption1.jpg">
+    <title>PamojaApp</title>
+
 </head>
 
 <body>
@@ -243,22 +244,19 @@
 </div>
 
     <div class="text-wrapper">
-        <div class="heading">
-            <h1>PamojaApp</h1>
-            <p class="slogan heading">Connecting Software Devs and Mentors</p>
-            <p class="btn btn-primary registerbutton">Register</p>
+        <div class="center">
+            <h1 class="heading">PamojaApp</h1>
+            <p class="slogan">Connecting software devs</p>
+            <p class="btn btn-primary registerbutton indent">Register</p>
+            <p class="btn btn-primary loginbutton">Log in</p>
         </div>
     </div>
 
     <div class="bg-popUp">
         <div class="popUp">
             <form class="form-container">
-                <input class="form-control" type="text" placeholder="Your Name" required> <br>
-
-                <label for="female">Female</label>
-                <input type="radio" name="gender" value="female" id="female" required>
-                <label for="male">Male</label>
-                <input type="radio" name="gender" value="male" id="male" required><br>
+                <img class="avatar" src="images/AvatarPic1.jpeg" alt="avatar"><br>
+                <input class="form-control" name="name" type="text" placeholder="Your Name" required> <br>
 
                 <select class="form-control" required>
                   <option value="">Select Level</option>
@@ -269,11 +267,24 @@
             </form>
 
         </div>
+    </div>
+
+
+    <div class="bg-popUpLogin">
+        <div class="popUp">
+            <form class="form-container">
+                <img class="avatar" src="images/AvatarPic1.jpeg" alt="avatar"><br>
+                <input class="form-control" name="name" type="text" placeholder="Your Name" required> <br>
+                <input class="form-control" name="name" type="password" placeholder="Padlock" required><br>
+
+                <button class="btn btn-primary submitBtn" type="submit">Log in</button>
+            </form>
+        </div>
 
     </div>
 
 
- Pamoja-Development
+
 </body>
 
 </html>

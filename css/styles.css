@@ -1,3 +1,7 @@
+body {
+    font-family: 'Karla', sans-serif;
+}
+
 .text-wrapper {
     height: 100vh;
     background-image: url(../images/pamojaAppbackhround\ image.jpg);
@@ -7,24 +11,40 @@
     align-items: center;
     padding-top: 10%;
     padding-bottom: 10%;
-    filter: blur(87%);
+    /* filter: blur(87%); */
+    /* background-blend-mode: darken; */
+}
+
+.center {
+    margin-top: 6%;
 }
 
 .heading {
     color: white !important;
-    /* filter: blur(0px) !important; */
+    font-size: 70px;
+    font-weight: bold;
+    text-shadow: 5px 5px #000;
 }
 
 .slogan {
     margin-bottom: 50px;
+    color: white;
+    font-size: 23px;
+    text-shadow: 3px 3px #000;
 }
 
-.registerbutton {
+.registerbutton,
+.loginbutton,
+.submitBtn {
     background-color: #35363E;
     border-radius: 20px;
     border-width: 2px;
     border-color: white;
     width: 130px;
+}
+
+.indent {
+    margin-right: 20px;
 }
 
 .bg-popUp {
@@ -40,11 +60,38 @@
 }
 
 .popUp {
-    width: 500px;
-    height: 300px;
-    background-color: white;
+    width: 350px;
+    height: 350px;
+    background-color: #F0F3F4;
     text-align: center;
     position: relative;
     padding: 20px;
     border-radius: 5px;
+}
+
+.form-container {
+    display: inline-block;
+}
+
+.avatar {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+.form-control {
+    background-color: transparent;
+}
+
+.bg-popUpLogin {
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: none;
 }
