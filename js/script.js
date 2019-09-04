@@ -13,5 +13,6 @@ $(document).ready(function() {
         // $("input").attr('required', true);
         $(".bg-popUp").hide();
         $(".bg-popUpLogin").hide();
+        $(".form-container").reset();
     });
 });
