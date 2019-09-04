@@ -9,8 +9,8 @@ $(document).ready(function() {
     });
 
     $(".submitBtn").on("click", function(e) {
-        e.preventDefault();
-        $("input").attr('required', true);
+        // e.preventDefault();
+        // $("input").attr('required', true);
         $(".bg-popUp").hide();
         $(".bg-popUpLogin").hide();
     });
