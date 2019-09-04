@@ -1,7 +1,66 @@
-<<<<<<< HEAD
-body {
-    font-family: 'Karla', sans-serif;
+
+p {
+    font-size: 10px;
+    text-align: center;
 }
+
+div.gallery {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 150px;
+    text-align: center;
+    border-color: transparent;
+  }
+  
+  div.gallery:hover {
+    border: 1px solid #777;
+  }
+  
+  div.gallery img {
+    width: 15%;
+    height: auto;
+  }
+
+  h2 {
+      color: white;
+      margin: 50px;
+  }
+
+  body {
+      background-color: #292B2A;
+     font-family: 'Karla', sans-serif;
+  }
+  .card {
+background-color: transparent;
+color:white;
+border-color: transparent;
+
+  }
+
+  .connect {
+    border-color: transparent;
+
+  }
+
+  .avatar {
+    border-radius: 50%;
+    height: 160px;
+    width: 160px;
+  }
+
+  h3 {
+    font-size: 20px;
+  }
+   .border {
+     border-radius: 8px;
+   }
+
+  
+
+
+
+
 
 .text-wrapper {
     height: 100vh;
@@ -70,6 +129,7 @@ body {
     border-radius: 5px;
 }
 
+
 .form-container {
     display: inline-block;
 }
@@ -96,7 +156,7 @@ body {
     align-items: center;
     display: none;
 }
-=======
+
 
 .container  {
   max-width: 500 !important;
@@ -293,4 +353,4 @@ img {
   border-radius: 20px;
 }
 
->>>>>>> mick
+
