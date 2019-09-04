@@ -16,8 +16,9 @@
     <div class="text-wrapper">
         <div class="center">
             <h1 class="heading">PamojaApp</h1>
-            <p class="slogan">Connecting Software Devs</p>
-            <p class="btn btn-primary registerbutton">Register</p>
+            <p class="slogan">Connecting software devs</p>
+            <p class="btn btn-primary registerbutton indent">Register</p>
+            <p class="btn btn-primary loginbutton">Log in</p>
         </div>
     </div>
 
@@ -25,12 +26,7 @@
         <div class="popUp">
             <form class="form-container">
                 <img class="avatar" src="images/AvatarPic1.jpeg" alt="avatar"><br>
-                <input class="form-control" type="text" placeholder="Your Name" required> <br>
-
-                <!-- <label for="female">Female</label>
-                <input type="radio" name="gender" value="female" id="female" required>
-                <label for="male">Male</label>
-                <input type="radio" name="gender" value="male" id="male" required><br> -->
+                <input class="form-control" name="name" type="text" placeholder="Your Name" required> <br>
 
                 <select class="form-control" required>
                   <option value="">Select Level</option>
@@ -41,8 +37,22 @@
             </form>
 
         </div>
+    </div>
+
+
+    <div class="bg-popUpLogin">
+        <div class="popUp">
+            <form class="form-container">
+                <img class="avatar" src="images/AvatarPic1.jpeg" alt="avatar"><br>
+                <input class="form-control" name="name" type="text" placeholder="Your Name" required> <br>
+                <input class="form-control" name="name" type="password" placeholder="Padlock" required><br>
+
+                <button class="btn btn-primary submitBtn" type="submit">Submit</button>
+            </form>
+        </div>
 
     </div>
+
 
 
 </body>
