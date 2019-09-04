@@ -10,13 +10,19 @@
     filter: blur(87%);
 }
 
+.center {
+    margin-top: 6%;
+}
+
 .heading {
     color: white !important;
-    /* filter: blur(0px) !important; */
+    font-size: 70px;
 }
 
 .slogan {
     margin-bottom: 50px;
+    color: white;
+    font-size: 20px;
 }
 
 .registerbutton,
