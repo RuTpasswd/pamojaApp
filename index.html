@@ -5,6 +5,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+   <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-3.4.1.js"></script>
+    <script src="js/script.js"></script>
+
     <title>pamoja-app</title>
     <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
     <link href="css/styles.css" rel="stylesheet" type="text/css">
@@ -242,6 +247,39 @@
     
     </div>
 </div>
+
+    <div class="text-wrapper">
+        <div class="heading">
+            <h1>PamojaApp</h1>
+            <p class="slogan heading">Connecting Software Devs and Mentors</p>
+            <p class="btn btn-primary registerbutton">Register</p>
+        </div>
+    </div>
+
+    <div class="bg-popUp">
+        <div class="popUp">
+            <form class="form-container">
+                <input class="form-control" type="text" placeholder="Your Name" required> <br>
+
+                <label for="female">Female</label>
+                <input type="radio" name="gender" value="female" id="female" required>
+                <label for="male">Male</label>
+                <input type="radio" name="gender" value="male" id="male" required><br>
+
+                <select class="form-control" required>
+                  <option value="">Select Level</option>
+                  <option value="Developer">Developer</option>
+                  <option value="Mentor">Mentor</option>
+                </select><br>
+                <button class="btn btn-primary submitBtn" type="submit">Submit</button>
+            </form>
+
+        </div>
+
+    </div>
+
+
+ Pamoja-Development
 </body>
 
 </html>

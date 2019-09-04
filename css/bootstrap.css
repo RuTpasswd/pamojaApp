@@ -76,7 +76,10 @@ hr {
 h1, h2, h3, h4, h5, h6 {
   margin-top: 0;
   margin-bottom: 0.5rem;
+<<<<<<< HEAD
   text-align: center;
+=======
+>>>>>>> da7d87b99f093c0f9b10cc80d80874b2b6b94f1b
 }
 
 p {
