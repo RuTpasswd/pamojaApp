@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Karla&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="js/jquery-3.4.1.js"></script>
+    <script src="js/script.js"></script>
+    <style>
+            .hide{
+            display: none;
+        }
+            .show{
+            display: block;
+            position: absolute;
+            left: 200px;
+            top: 200px;
+            color: blue;
+        }
+    </style>
+    <script type="text/javascript" language="javascript">
+
+
+        window.onload = function ()  //executes when the page finishes loading
+        {
+            setTimeout(func1, 2000);  //sets a timer which calls function func1 after 2,000 milliseconds = 2 secs.
+
+        };
+        function func1() {
+            document.getElementById("my_div").className = "show";
+        }
+
+            // End hiding -->
+    </script>
+    <!--<script src="js/skripts.js"></script>-->
+    <script src="slick-1.8.1/slick/slick.js" type="text/javascript" charset="utf-8"></script>
+    <link rel="icon" type="imange/ico" href="images/faviconOption1.jpg">
+    <title>PamojaApp</title>
+</head>
+
+<body>
+    <!-- <div class="text-wrapper">
+        <div class="center">
+            <h1 class="heading">PamojaApp</h1>
+            <p class="slogan">Connecting software devs</p>
+            <p class="btn btn-primary registerbutton indent">Register</p>
+            <p class="btn btn-primary loginbutton">Log in</p>
+        </div>
+    </div>
+
+    <div class="bg-popUp">
+        <div class="popUp">
+            <form class="form-container">
+                <img class="avatar" src="images/AvatarPic1.jpeg" alt="avatar"><br>
+                <input class="form-control" name="name" type="text" placeholder="Your Name" required> <br>
+
+                <select class="form-control" required>
+                    <option value="">Select Level</option>
+                    <option value="Developer">Developer</option>
+                    <option value="Mentor">Mentor</option>
+                </select><br>
+                <button class="btn btn-primary submitBtn" type="submit"><a href="#connectMe"
+                        target="_blank">Submit</a></button>
+            </form>
+
+        </div>
+    </div>
+
+
+    <div class="bg-popUpLogin">
+        <div class="popUp">
+            <form class="form-container">
+                <img class="avatar" src="images/AvatarPic1.jpeg" alt="avatar"><br>
+                <input class="form-control" name="name" type="text" placeholder="Your Name" required> <br>
+                <input class="form-control" name="name" type="password" placeholder="Padlock" required><br>
+
+                <button class="btn btn-primary submitBtn" type="submit"><a href="#connectMe" target="_blank">Log
+                    in</a></button>
+            </form>
+        </div>
+
+    </div> -->
+    <!-- Home page -->
+
+    <div class="container">
+        <!-- <div id="connectMe">
+            <div class="row">
+                <div class="col-md-12">
+                    <h2 >Mentors</h2>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-2">
+                    <div class="card">
+                        <img src="images/arya.jpg" alt="arya" class="avatar">
+                        <h3>Arya Stark</h3>
+                        <p>HTML CSS Javascript</p>
+                        <div class="gallery">
+                            <a target="_blank" href="images/git.png">
+                                <img src="images/git.png" width="20" height="20">
+                            </a>
+                            <a target="_blank" href="images/link.png">
+                                <img src="images/link.png" width="20" height="20">
+                            </a>
+                        </div>
+                        <button class="border"><a href="#chatBot" target="_blank">connect</a></button>
+                    </div>
+                </div>
+
+                <div class="col-md-2">
+                    <div class="card">
+                        <img src="images/wait.jpg" alt="wait" class="avatar">
+                        <h3>Ferdinant W</h3>
+                        <p>HTML CSS Javascript Python</p>
+                        <div class="gallery">
+                            <a target="_blank" href="images/git.png">
+                                <img src="images/git.png" width="20" height="20">
+                            </a>
+                            <a target="_blank" href="images/link.png">
+                                <img src="images/link.png" width="20" height="20">
+                            </a>
+                        </div>
+                        <button class="border"><a href="#chatBot" target="_blank">connect</a></button>
+                    </div>
+                </div>
+
+                <div class="col-md-2">
+                    <div class="card">
+                        <img src="images/spo.jpg" alt="spo" class="avatar">
+                        <h3>Sponge Bawb</h3>
+                        <p> HTML CSS Javascript PHP</p>
+                        <div class="gallery">
+                            <a target="_blank" href="images/git.png">
+                                <img src="images/git.png" width="20" height="20">
+                            </a>
+                            <a target="_blank" href="images/link.png">
+                                <img src="images/link.png" width="20" height="20">
+                            </a>
+                        </div>
+                        <button class="border"><a href="#chatBot" target="_blank">connect</a></button>
+                    </div>
+                </div>
+
+                <div class="col-md-2">
+                    <div class="card">
+                        <img src="images/stiw.webp" alt="stiw" class="avatar">
+                        <h3>Stewie Griffin</h3>
+                        <p>Python HTML Javascript CSS</p>
+                        <div class="gallery">
+                            <a target="_blank" href="images/git.png">
+                                <img src="images/git.png" width="20" height="20">
+                            </a>
+                            <a target="_blank" href="images/link.png">
+                                <img src="images/link.png" width="20" height="20">
+                            </a>
+                        </div>
+                        <button class="border"><a href="#chatBot" target="_blank">connect</a></button>
+                    </div>
+                </div>
+
+                <div class="col-md-2">
+                    <div class="card">
+                        <img src="images/went.jpeg" alt="princ" class="avatar">
+                        <h3>Wentworth Miller</h3>
+                        <p>HTML CSS Javascript Python</p>
+                        <div class="gallery">
+                            <a target="_blank" href="images/git.png">
+                                <img src="images/git.png" width="20" height="20">
+                            </a>
+                            <a target="_blank" href="images/link.png">
+                                <img src="images/link.png" width="20" height="20">
+                            </a>
+                        </div>
+                        <button class="border"><a href="#chatBot" target="_blank">connect</a></button>
+                    </div>
+                </div>
+
+                <div class="col-md-2">
+
+                    <div class="card">
+                        <img src="images/prof.jpg" alt="image of online" class="avatar">
+                        <h3>Alvaro Morte</h3>
+                        <p>CSS Javascript JAVA</p>
+                        <div class="gallery">
+                            <a target="_blank" href="images/git.png">
+                                <img src="images/git.png" width="20" height="20">
+                            </a>
+                            <a target="_blank" href="images/link.png">
+                                <img src="images/link.png" width="20" height="20">
+                            </a>
+                        </div>
+                        <button class="border"><a href="#" target="_blank">connect</a></button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-12">
+                    <h2>Junior Developers</h2>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-2">
+
+                    <div class="card">
+                        <img src="images/oj.jpg" alt="oj" class="avatar">
+                        <h3>OJ Tahidi</h3>
+                        <p>HTML CSS Javascript Python</p>
+                        <div class="gallery">
+                            <a target="_blank" href="images/git.png">
+                                <img src="images/git.png" width="20" height="20">
+                            </a>
+                            <a target="_blank" href="images/link.png">
+                                <img src="images/link.png" width="20" height="20">
+                            </a>
+                        </div>
+                        <button class="border"><a href="#chatBot" target="_blank" class="connect">connect</a></button>
+                    </div>
+                </div>
+
+                <div class="col-md-2">
+                    <div class="card">
+                        <img src="images/Jonw.jpeg" alt="Johnw" class="avatar">
+                        <h3>John Wick</h3>
+                        <p>Python Javascript HTML</p>
+                        <div class="gallery">
+                            <a target="_blank" href="images/git.png">
+                                <img src="images/git.png" width="20" height="20">
+                            </a>
+                            <a target="_blank" href="images/link.png">
+                                <img src="images/link.png" width="20" height="20">
+                            </a>
+                        </div>
+                        <button class="border"><a href="#chatBot" target="_blank">connect</a></button>
+                    </div>
+                </div>
+
+                <div class="col-md-2">
+                    <div class="card">
+                        <img src="images/poze.jpeg" alt="poze" class="avatar">
+                        <h3>Willy Paul</h3>
+                        <p>HTML CSS Javascript Python</p>
+                        <div class="gallery">
+                            <a target="_blank" href="images/git.png">
+                                <img src="images/git.png" width="20" height="20">
+                            </a>
+                            <a target="_blank" href="images/link.png">
+                                <img src="images/link.png" width="20" height="20">
+                            </a>
+                        </div>
+                        <button class="border"><a href="#chatBot" target="_blank">connect</a></button>
+                    </div>
+                </div>
+
+                <div class="col-md-2">
+                    <div class="card">
+                        <img src="images/tyres.jpeg" alt="tyres" class="avatar">
+                        <h3>Tyrese Gibson</h3>
+                        <p>CSS Javascript CSS</p>
+                        <div class="gallery">
+                            <a target="_blank" href="images/git.png">
+                                <img src="images/git.png" width="20" height="20">
+                            </a>
+                            <a target="_blank" href="images/link.png">
+                                <img src="images/link.png" width="20" height="20">
+                            </a>
+                        </div>
+                        <button class="border"><a href="#chatBot" target="_blank">connect</a></button>
+                    </div>
+                </div>
+
+                <div class="col-md-2">
+                    <div class="card">
+                        <img src="images/daffy.jpg" alt="daffy" class="avatar">
+                        <h3>Daffy Duck</h3>
+                        <p>Python Javascript CSS HTML</p>
+                        <div class="gallery">
+                            <a target="_blank" href="images/git.png">
+                                <img src="images/git.png" width="20" height="20">
+                            </a>
+                            <a target="_blank" href="images/link.png">
+                                <img src="images/link.png" width="20" height="20">
+                            </a>
+                        </div>
+                        <button class="border"><a href="#chatBot" target="_blank">connect</a></button>
+                    </div>
+                </div>
+
+                <div class="col-md-2">
+                    <div class="card">
+                        <img src="images/jackie.jpg" alt="Jackie" class="avatar">
+                        <h3>Jackie Chan</h3>
+                        <p>HTML CSS Javascript</p>
+                        <div class="gallery">
+                            <a target="_blank" href="images/git.png">
+                                <img src="images/git.png" width="20" height="20">
+                            </a>
+                            <a target="_blank" href="images/link.png">
+                                <img src="images/link.png" width="20" height="20">
+                            </a>
+                        </div>
+                        <button class="border"><a href="#chatBot" target="_blank">connect</a></button>
+                    </div>
+                </div>
+
+            </div>
+        </div> -->
+
+        <!--Chat Page-->
+        <div class="msg-header" id="chatBot">
+            <div class="msg-header-img">
+                <!--<img src="" alt="png">-->
+            </div>
+            <div class="active">
+                <h4></h4>
+                <h6></h6>
+            </div>
+        </div>
+
+        <div class="chat-page">
+            <div class="msg-inbox">
+                <div class="chats">
+                    <div class="msg-page">
+                        <div class="received-chats">
+                            <div class="received-chats-img">
+                                <!--<img src="images/ganza.jpeg">-->
+
+                            </div>
+                            <div class="received-msg">
+                                <div class="received-msg-inbox">
+                                    <p id="pamoja-chat-messages1"> </p>
+                                    <span class="time">11:00 AM | September </span>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="outgoing-chats">
+                            <div class="outgoing-chats-msg">
+                                <p id="pamoja-chat-messages2"> </p>
+                                <!-- <span class="time">11:01 AM | September </span>-->
+                            </div>
+
+                            <div class="outgoing-chats-img">
+                                <!--<img src="images/SangwaDaniel.jpeg">-->
+
+                            </div>
+                        </div>
+                        <div id="my_div" class="hide">some text</div>
+                        <div id="konte">
+
+                        </div>
+
+                    </div>
+
+                    <div class="msg-bottom">
+                        <div class="input-group">
+                            <input type="text" class="form-control" placeholder="Write your message ..."
+                                id="pamoja-chat-text">
+                            <div class="input-group-append">
+                                <button id="button"><span class="input-group-text"></i>SEND</span></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <script>
+
+        const inputKey = document.getElementById("pamoja-chat-text");
+        const inputValue = document.getElementById("pamoja-chat-text");
+        const button = document.getElementById("button");
+        button.onclick = function () {
+            const key = inputKey.value;
+            const value = inputValue.value;
+            if (key && value) {
+                localStorage.setItem(key, value);
+                location.reload();
+            }
+        };
+
+        for (i = 0; i <= localStorage.length; i++) {
+            var usersdata = localStorage.key(i);
+
+            document.getElementById("pamoja-chat-messages1").innerHTML += usersdata;
+
+            console.log(usersdata);
+            var secondDiv = document.createElement('input');
+            var typing = document.createTextNode("Typing......");
+
+
+        };
+
+        document.getElementById("pamoja-chat-messages2").appendChild(typing);
+
+    </script>
+
+
+
+</body>
+
+</html>
